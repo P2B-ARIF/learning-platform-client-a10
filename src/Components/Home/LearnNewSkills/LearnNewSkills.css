@@ -1,0 +1,52 @@
+.learn-skills {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 3rem;
+}
+.learn-skills .learn-text .learn-img {
+  display: inline-block;
+  padding: 1rem;
+  border-radius: 50%;
+  background: rgb(89, 94, 255);
+  background: linear-gradient(148deg, rgb(131, 138, 255) 0%, rgb(0, 247, 255) 100%);
+}
+
+.learn-skills .learn-text .learn-img img {
+  width: 50px;
+  color: white;
+}
+.learn-skills .learn-text h1 {
+  margin: 2rem 0;
+}
+
+.learn-skills .learn-text p {
+  line-height: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.learn-skills .learn-text .quotes .quote {
+  display: flex;
+  align-items: center;
+  margin: 1rem 0;
+}
+.learn-skills .learn-text .quotes .quote img {
+  width: 25px;
+  margin-right: 1rem;
+}
+.learn-skills .learn-text .quotes .quote p {
+  margin: 0;
+}
+
+.learn-skills .skill-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 1rem;
+}
+
+@media screen and (max-width: 870px) {
+  .learn-skills {
+    grid-template-columns: repeat(1, 1fr);
+    grid-column-gap: 5rem;
+  }
+}

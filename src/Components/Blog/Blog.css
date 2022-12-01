@@ -1,0 +1,25 @@
+section .blog-head {
+  height: 50vh;
+  background: rgb(89, 94, 255);
+  background: linear-gradient(180deg, rgba(89, 94, 255, 1) 10%, rgba(38, 239, 245, 1) 100%);
+}
+section .blog-head .blog-head-text {
+  position: relative;
+  top: 50%;
+  left: 15%;
+  width: 30%;
+}
+
+section .blog-head .blog-head-text h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  padding-bottom: 1rem;
+  color: white;
+}
+
+.question {
+  padding: 1rem;
+  border: 2px solid rgb(97, 242, 194);
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}

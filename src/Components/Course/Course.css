@@ -1,0 +1,19 @@
+section .course-head {
+  height: 50vh;
+  background: rgb(89, 94, 255);
+  background: linear-gradient(180deg, rgba(89, 94, 255, 1) 10%, rgba(38, 239, 245, 1) 100%);
+}
+section .course-head .course-head-text{
+    position: relative;
+    top: 50%;
+    left: 15%;
+    width: 30%;
+}
+
+section .course-head .course-head-text h1{
+font-size: 3rem;
+font-weight: 600;
+padding-bottom: 1rem
+;
+color: white;
+}

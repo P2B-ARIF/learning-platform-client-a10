@@ -1,0 +1,15 @@
+.subs-details h2 {
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: bold;
+  color: #3d3c3c;
+}
+
+.topic-head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}

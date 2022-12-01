@@ -1,0 +1,54 @@
+section .check-head {
+    height: 50vh;
+    background: rgb(89, 94, 255);
+    background: linear-gradient(180deg, rgba(89, 94, 255, 1) 10%, rgba(38, 239, 245, 1) 100%);
+  }
+  section .check-head .check-head-text{
+      position: relative;
+      top: 50%;
+      left: 15%;
+      width: 30%;
+  }
+  
+  section .check-head .check-head-text h2{
+  font-size: 2.5rem;
+  font-weight: 600;
+  padding-bottom: 1rem
+  ;
+  color: white;
+  }
+
+  .d-items{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+  }
+  .d-items .d-card {
+    margin-top: 3rem;
+    background-color: rgb(190, 255, 238);
+    padding: 1rem;
+    border-radius: 1rem;
+  }
+  .d-items .d-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+  
+  } 
+  .d-items .d-card  h3{
+    padding: .5rem;
+  }
+
+  .d-items .d-card .d-img{
+    display: inline-block;
+    width: 100%;
+
+  }
+  .d-items .d-card  img{
+    width: 100%;
+    object-fit: cover;
+  }
+
+  
